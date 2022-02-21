@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "ascendant-might-333120-tfstate"
+    bucket = "flask-app-211918-342018-tfstate"
     prefix = "env/prod"
   }
 }
